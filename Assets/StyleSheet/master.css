@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@layer base {
+
+ @font-face {
+  font-family: sooki;
+  src: url(../Fonts/Vazirmatn-VariableFont_wght.ttf);
+ }
+
+ body {
+  font-family: sooki;
+  direction: rtl;
+ }
+}
+
+@layer utilities {
+ .row {
+  @apply w-full flex flex-wrap;
+ }
+}
+
+@theme {
+ --animate-slide1: slide1 12s linear infinite;
+ --animate-slide2: slide2 12s linear infinite;
+ --animate-slide3: slide3 12s linear infinite;
+ --animate-slide4: slide4 12s linear infinite;
+
+
+@keyframes slide1 {
+ 0%{
+  left:0;
+ }
+ 23%{
+  left:0;
+ }
+ 27%{
+  left: 100%;
+ }
+ 27.0001%{
+  left:-100%;
+ }
+ 96%{
+  left:-100%;
+ }
+ 100%{
+  left:0;
+ }
+}
+
+@keyframes slide2 {
+ 0%{
+  left:-100%;
+ }
+ 23%{
+  left:-100%;
+ }
+ 27%{
+  left:0;
+ }
+ 48%{
+  left:0;
+ }
+ 52%{
+  left:100%;
+ }
+ 52.0001%{
+  left:-100%;
+ }
+ 100%{
+  left:-100%;
+ }
+}
+
+@keyframes slide3 {
+ 0%{
+  left:-100%;
+ }
+ 48%{
+  left:-100%;
+ }
+ 52%{
+  left:0;
+ }
+ 73%{
+  left:0;
+ }
+ 77%{
+  left:100%;
+ }
+ 77.0001%{
+  left:-100%;
+ }
+ 100%{
+  left:-100%;
+ }
+}
+
+@keyframes slide4 {
+ 0%{
+  left:-100%;
+ }
+ 73%{
+  left: -100%;
+ }
+ 77%{
+  left:0;
+ }
+ 96%{
+  left:0;
+ }
+ 99.999%{
+  left:100%;
+ }
+ 1005{
+  left:-100%;
+ }
+}
+
+}

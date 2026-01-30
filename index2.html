@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="با پلتفرم اسنپ غذا (اسنپ فود)، به راحتی می‌توانید با چند کلیک منوی بهترین رستوران‌ها و فست فود‌های نزدیک خود را مشاهده کنید.">
+  <link rel="stylesheet" href="Assets/StyleSheet/output.css">
+  <title>Snapp Food</title>
+</head>
+
+<body>
+  <section class="w-full mt-[100px] 2xl:container mx-auto h-[80vh]">
+    <header class="fixed top-0 left-0 z-10 w-full w-full 2xl:container mx-auto h-[100px] bg-white shadow-md">
+      <nav class="w-full lg:w-[80%] mx-auto flex justify-between items-center h-full px-5">
+        <i class="lg:hidden"><a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              class="size-6 md:size-8 stroke-[#09c33b]">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </a>
+        </i>
+        <figure>
+          <img src="Assets/Images/logo.svg" alt="">
+        </figure>
+        <ul
+          class="hidden lg:flex lg:text-[14px] xl:text-[16px] justify-evenly w-[85%] **:flex **:items-center **:justify-center **:justify-evenly *:hover:text-[#ff04a3] **:p-1 **:rounded-xl">
+
+          <li><a href="">
+              <span>
+                خرید نان
+              </span>
+            </a></li>
+          <li><a href="">
+              <span>خرید شیرینی
+
+              </span>
+            </a></li>
+          <li><a href="">
+              <span>خرید میوه</span>
+            </a></li>
+          <li><a href="">
+              <span>سفارش آجیل</span>
+            </a></li>
+
+          <li><a href="">
+              <span>اسنپ پروتئین</span>
+            </a></li>
+
+          <li class="relative group"><a href="">
+              <span>سایر سرویس های اسنپ فود</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+              <ul
+                class="absolute w-[200px] flex flex-wrap bg-white justify-center duration-300 *:text-gray-700 *:text-center *:hover:bg-[#ff04a342] *:w-full *:!rounded-none opacity-0 invisible group-hover:visible group-hover:opacity-100 content-center !rounded-none top-[50px] right-0">
+                <li>
+                  <a href="">
+                    <span>خرید آبمیوه و بستنی</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>سوپرمارکت اینترنتی</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>خرید گل</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>کافی شاپ آنلاین</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>عطاری آنلاین</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>اسنپ پت شاپ</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>خرید سبزیجات</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>خرید لبنیات محلی</span>
+                  </a>
+                </li>
+              </ul>
+            </a></li>
+
+          <li><a href="">
+              <span>رستوران های پر طرفدار</span>
+            </a></li>
+
+          <li><a href="">
+              <span>مجله اسنپ فود</span>
+            </a></li>
+
+          <li class="relative group"><a href="">
+              <span>درباره اسنپ فود</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </a>
+            <ul
+              class="absolute w-[200px] flex flex-wrap bg-white justify-center *:!text-gray-700 *:text-center *:hover:bg-[#ff04a342] duration-300 *:w-full *:!rounded-none opacity-0 invisible group-hover:visible group-hover:opacity-100 content-center !rounded-none top-[50px] right-0">
+              <li>
+                <a href="">
+                  <span>تماس با ما</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span>درباره ما</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <span>سوالات متداول</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="">
+              <span>کد تخفیف اسنپ فود</span>
+            </a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="row h-full bg-[#ff04a3]">
+      <div
+        class="w-full flex flex-wrap justify-center content-evenly *:text-white px-5 lg:w-1/2 h-full *:w-[90%] *:mx-auto text-right">
+        <h1 class="text-[45px] font-bold">اسنپ فود، تجربه سریع و آسان سفارش آنلاین غذا</h1>
+        <p class=" lg:text-justify text-[22px]">با پلتفرم اسنپ غذا (اسنپ فود)، به راحتی می‌توانید با چند کلیک منوی
+          بهترین
+          رستوران‌ها و فست فود‌های نزدیک خود را مشاهده کنید. سفارش آنلاین غذا را به سادگی و با خیال راحت ثبت کنید و در
+          سریع‌ترین زمان ممکن غذای خود را درب منزل تحویل بگیرید. با اسنپ غذا، لذت سفارش اینترنتی سریع و آسان غذا را
+          تجربه
+          کنید.</p>
+        <a class="w-[80%] flex justify-center items-center p-2 rounded-md mx-auto border border-white hover:bg-white hover:text-[#ff04a3] duration-300"
+          href="">ثبت سفارش غذا</a>
+      </div>
+
+      <figure class="hidden lg:block w-1/2 h-full">
+        <img class="object-cover w-full h-full" src="Assets/Images/desktop-food.jpg" alt="">
+      </figure>
+    </div>
+  </section>
+  <!-- end of sectiion1/// -->
+  <section class="w-full 2xl:container mx-auto p-5 bg-[#f5f4f4]">
+    <div class="flex flex-wrap gap-1 w-[90%] md:w-[80%] mx-auto justify-evenly mt-10">
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon1.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">ایرانی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon2.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">فست فود</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon3.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">پیتزا</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon4.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">ساندویچ</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon5.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">کباب</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon6.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">برگر</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon7.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سوخاری</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon8.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">پاستا</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon9.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سالاد</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon10.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">دریایی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon11.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">بین المللی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon12.jpg" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">گیلانی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon13.png" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">غذای گیاهی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon14.png" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">غذای رژیمی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon15.png" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سوشی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/3 lg:w-1/6">
+        <a class="flex gap-1 flex-wrap justify-evenly" href="index1.html">
+          <figure class="w-full flex justify-center">
+            <img class="" src="Assets/Images/snappFoodIcon16.png" alt="snapp">
+          </figure>
+          <span class="*:text-center w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">صبحانه</h3>
+          </span>
+        </a>
+      </div>
+
+
+
+
+    </div>
+  </section>
+  <!-- end of section2/// -->
+  <section class="w-full 2xl:container mx-auto p-5 bg-white">
+    <div class="flex flex-wrap gap-3 w-[90%] md:w-[80%] mx-auto justify-evenly mt-10">
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood1.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سفارش نان</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood2.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سفارش کیک و شیرینی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly pt-5 lg:pt-2 xl:pt-3" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood3.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">محصولات پروتئینی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood4.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سفارش آبمیوه</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood5.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">خرید میوه</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood6.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سوپر مارکت</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood7.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سفارش آجیل</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood8.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">سفارش گل</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood9.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">کافی شاپ آنلاین</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood10.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">عطاری آنلاین</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood11.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">محصولات طبیعی</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood12.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">تره بار</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood13.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">قهوه و شکلات</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly pt-5" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood14.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">پت شاپ</h3>
+          </span>
+        </a>
+      </div>
+
+      <div class="p-3 w-1/4">
+        <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+          <figure class="w-full sm:w-1/3  flex justify-center items-center">
+            <img class="w-full" src="Assets/Images/myIconfood15.svg" alt="snapp">
+          </figure>
+          <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center items-center">
+            <h3 class="font-bold">لبنیات محلی</h3>
+          </span>
+        </a>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- end of section3/// -->
+  <section class="w-full 2xl:container mx-auto px-5 my-20 lg:mb-[30%]">
+    <div class="w-full flex flex-wrap relative">
+      <figure class="w-full lg:w-1/2">
+        <img class="w-full object-cover" src="Assets/Images/snapp food back.jpg" alt="">
+      </figure>
+
+      <div class="w-full lg:w-1/2 p-4 *:my-3">
+        <h4 class="text-[25px]">مزایای سفارش آنلاین غذا از اپلیکیشن اسنپ غذا - ارسال سریع</h4>
+        <p class="text-justify text-gray-500 text-[18px]">تمام تلاش اسنپ در بخش سفارش آنلاین غذا بر مبنای ارسال سریع و
+          به
+          موقع غذا از رستوران‌ها و فست فودی‌های نزدیک محل زندگی شما است. با دسترسی به فهرستی بلند از غذاهای لذیذ و
+          قیمت‌های
+          مناسب، می‌توانید به راحتی غذای مورد نظرتان را با چند کلیک ساده سفارش دهید و در بهترین بسته‌بندی همراه با تخفیف
+          دریافت کنید. سوپر اپلیکیشن اسنپ با ارائه تخفیف‌های ویژه تا 60 هزار تومان برای اولین سفارش، تجربه‌ای بی‌نظیر از
+          سفارش آنلاین غذا را برای شما فراهم می‌کند. همین الان دکمه ثبت سفارش غذا را کلیک کنید و از مزایای بی‌نظیر اسنپ
+          بهره‌مند شوید.</p>
+      </div>
+
+      <div class="row justify-evenly lg:absolute right-0 top-[85%] gap-5">
+        <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+          <figure class="w-full">
+            <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/card food 1.png" alt="">
+            <figcaption>
+              <h4 class="font-bold p-3">خرید و امتحان غذا ملیت های مختلف</h4>
+              <p class="text-gray-700 text-justify p-3">به دلیل گستره ی زیاد رستوران و فست فود های اسنپ دستتان برای
+                انتخاب غذا
+                باز است.شما با سفارش از اسنپ غذا می توانید انواع غذا های ایرانی، لبنانی، ایتالیایی، هندی، ترکی، چینی و
+                ... را به
+                راحتی انتخاب ثبت سفارش کنید.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+          <figure class="w-full">
+            <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/card food 2.png" alt="">
+            <figcaption>
+              <h4 class="font-bold p-3">تحول سریع غذا</h4>
+              <p class="text-gray-700 text-justify p-3">بدون فوت وقت در ترافیک یا انتظار در صف های طولانی رستوران،
+                صباحانه
+                ناهار و شام را همراه با مخلفات، آنلاین سفارش دهید.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+          <figure class="w-full">
+            <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/card food 3.png" alt="">
+            <figcaption>
+              <h4 class="font-bold p-3">پشتیبانی 24 ساعته</h4>
+              <p class="text-gray-700 text-justify p-3">تیم اسنپ هر روز هفته، به‌صورت شبانه‌روزی، پاسخ‌گوی سؤالات و
+                مشکلات
+                احتمالی است.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of section4/// -->
+  <section class="w-full 2xl:container mx-auto py-10 px-20 mt-10">
+    <div class="row *:p-4">
+      <div class="w-full lg:w-1/4 flex flex-wrap gap-3 justify-center *:duration-300">
+        <a class="block w-[80%] h-[50px] bg-[#ff04a3] text-white rounded-2xl flex justify-center items-center hover:bg-gray-200 hover:text-[#ff04a3]"
+          href="">انتخاب نوع غذا</a>
+        <a class="block w-[80%] h-[50px] text-[#ff04a3] bg-gray-200 rounded-2xl flex justify-center items-center hover:bg-[#ff04a3] hover:text-white"
+          href="">انتخاب رستوران</a>
+        <a class="block w-[80%] h-[50px] text-[#ff04a3] bg-gray-200 rounded-2xl flex justify-center items-center hover:bg-[#ff04a3] hover:text-white"
+          href="">انتخاب غذای دلخواه</a>
+        <a class="block w-[80%] h-[50px] text-[#ff04a3] bg-gray-200 rounded-2xl flex justify-center items-center hover:bg-[#ff04a3] hover:text-white"
+          href="">انتخاب روش تحویل و پرداخت</a>
+      </div>
+
+      <div class="w-full md:w-2/3 lg:w-2/4">
+        <h5 class="font-bold text-[18px]">شروع سفارش و انتخاب غذا</h5>
+        <p class="text-[18px] text-gray-700 text-right text-justify">با کلیک بر روی دکمه بالای صفحه، به صفحه سفارش غذا
+          هدایت می شوید و پس از مشاهده رستوران‌های اطراف، آدرس‌تان را وارد کنید. حالا غذای موردنظرتان را بالای صفحه
+          بنویسید
+          یا گزینه رستوران را بزنید. راه آسان‌تر این است که در بخش دسته‌بندی‌ها، نوع غذا را مشخص کنید. از فودپارتی،
+          جایزه
+          خرید هم غافل نشوید.</p>
+      </div>
+
+      <img class="w-full md:w-1/3 lg:w-1/4" src="Assets/Images/snapp food section 5.jpg" alt="">
+    </div>
+  </section>
+  <!-- end of section5/// -->
+  <section class="w-full 2xl:container mx-auto py-10 px-20 mt-10">
+    <div class="w-full flex flex-wrap lg:flex-nowrap lg:px-10 justify-center gap-10">
+
+      <div class="w-full lg:w-1/2 bg-gray-200 hover:bg-[#ff04a3] hover:text-white p-5 rounded-2xl duration-300">
+        <figure>
+          <img class="rounded-2xl" src="Assets/Images/irani.jpg" alt="">
+        </figure>
+        <h4 class="text-center text-[20px] font-bold my-3">انواع غذاهای ایرانی و فرنگی</h4>
+        <p class="px-3 text-justify">در اسنپ فود تا دلتان بخواهد، رستوران ایرانی و فرنگی هست: از انواع کباب ها و خورش ها
+          و
+          غذاهای دریایی گرفته تا سینی های محلی مانند کباب ترش با همان دستور پخت اصیل تا انواع وعده های محلی مثل آش دوغ
+          تبریز
+          و قیمه نثار قزوین. امتحان کردن طعم های بین المللی هم فکر خوبی است. تسپرینگ رول سبزیجات دوست دارید یا ترکیب
+          ماهی
+          سالمون با آووکادو و بنج در قالب سوشی؟ عاشق دونر کباب ترکی با سس سیر و گوشت هستید یا پاستای ایتالیایی؟ فست فود
+          می
+          پسندید؟ انواع پیتزا، برگریا ساندویچ های سرد گزینه های جذابی هستند که می توانید با اسنپ سفارش بدهید.</p>
+      </div>
+
+      <div class="w-full lg:w-1/2 bg-gray-200 hover:bg-[#ff04a3] hover:text-white p-5 rounded-2xl duration-300">
+        <figure>
+          <img class="rounded-2xl" src="Assets/Images/no cost.jpg" alt="">
+        </figure>
+        <h4 class="text-center text-[20px] font-bold my-3">سفارش بدون هزینه اضافی</h4>
+        <p class="px-3 text-justify">جلب رضایت مشتری یعنی اختلاف قیمت خرید حضوری و آنلاین آن قدر کم است که اصلا نمی ارزد
+          راهی رستوران شوید! این دقیقا اتفاقی است که اسنپ رقم می زند. بدون دردسر و معطلی و هزینه های اضافی، سفارشتان را
+          درب
+          منزل تحویل می گیرند. هزینه خرید آنلاین نه تنها تفاوتی با خرید حضوری ندارد بلکه فرصت بهره مندی از تخفیف های
+          هیجان
+          انگیز هم برایتان فراهم می شود. حالا تصور کنید یک رستوران ارسال رایگان هم داشته باشید و بدون پرداخت هیچ گونه
+          هزینه
+          پیک، ناهارتان را درب منزل دریافت کنید! البته معمولا هزینه پیک مقرون به صرفه ایت و می ارزد به دود و دم شهرهای
+          بزرگ.
+        </p>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- end of section6/// -->
+  <section class="w-full 2xl:container mx-auto py-10 px-20 mt-10">
+    <h4 class="text-center text-[30px] font-bold">پرطرفدارترین رستوران‌ها در اسنپ</h4>
+    <div class="p-5 row gap-5 justify-center">
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 1.png" alt="">
+      </a>
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 2.png" alt="">
+      </a>
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 3.png" alt="">
+      </a>
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 4.png" alt="">
+      </a>
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 5.png" alt="">
+      </a>
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 6.png" alt="">
+      </a>
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 7.png" alt="">
+      </a>
+      <a class="w-1/3 md:w-1/4 lg:w-1/5" href="">
+        <img class="mx-auto" src="Assets/Images/best restaurants 8.png" alt="">
+      </a>
+    </div>
+  </section>
+  <!-- end of section7/// -->
+  <section class="w-full 2xl:container mx-auto p-10 mt-10 flex flex-wrap justify-center gap-10">
+    <p class="text-gray-700 text-justify p-8 w-[80%]">با وجود دنیایی از غذاهای ایرانی و غیرایرانی که در منوی رستوران‌ها
+      می‌بینید، انواع فست‌فودها، ساندویچ‌ها و غذاهای
+      محلی و بین‌المللی که آماده سفارش هستند؛ بعضی‌ها هم که از قدیم پرطرفدار بوده‌اند و هنوز هم مشتریان همیشگی دارند.
+      مثلا از میان منوهای سنتی، کباب‌ها و از میان فست‌فودها، انواع برگر با استقبال بیشتری روبه‌رو می‌شوند. پیتزا مثل
+      همیشه در صدر فهرست پرطرفدارترین‌هاست و کودک و جوان عاشقش هستند. حتی این‌روزها که سبک زندگی تغییر کرده و علاقه به
+      سالم‌خوری بیشتر از قبل شده، خیلی از مخاطبان اسنپ برای وعده‌های اصلی سراغ سالادهای مختلف می‌روند که جای تحسین دارد.
+    </p>
+    <div class="w-[80%] bg-pink-100 shadow-2xl p-8 rounded-2xl *:my-3">
+      <h2 class="text-[22px] font-bold">سفارش غذا از رستوران‌های اطراف شما</h2>
+      <p class="text-[18px] text-gray-700 text-justify">این روزها شمار رستوران‌های هر شهر و منطقه به‌قدری زیاد شده که
+        گاهی حسابشان از دستمان در می‌رود. گذشته از این، پیداکردن رستوران‌های خوب در شهرهای نا‌آشنا کار راحتی نیست. با
+        اسنپ فرقی نمی‌کند برای سفارش آنلاین غذا کجا هستید و موقعیت مکانی شما چیست. وارد اسنپ فود که شویم و نشانی خود را
+        وارد کنیم، فهرست انواع رستوران یا فست فود نزدیک من و شما نمایش داده می‌شود. هرجا که هستیم، حتی اطراف محل کارمان،
+        رستوران‌های باکیفیتی هستند که عضو اسنپ باشند. یادتان هست گفتیم وقت طلاست و اسنپ این را خوب می‌داند؟ با خرید از
+        رستوران‌های اطراف کمتر انتظار می‌کشیم و سفارش سریع‌تر تحویل ما داده می‌شود.
+        حتی می‌توانید برای دیگران هم غذا بفرستید. نشانی‌ هرکس را که دوست دارید در اپلیکیشن وارد کنید و تمام! تحویل را به
+        اسنپ بسپارید. </p>
+    </div>
+    <div class="w-[80%] bg-pink-100 shadow-2xl p-8 rounded-2xl *:my-3">
+      <h2 class="text-[22px] font-bold">آشنایی با شیوه پرداخت اعتباری</h2>
+      <p class="text-[18px] text-gray-700 text-justify">در اسنپ می‌توانید سفارش‌تان را دریافت کنید و بعدا هزینه‌اش را
+        بپردازید. به هیچ مدرک و ضمانتی هم احتیاج ندارید. ضمانت شما میزان اعتباری است که به‌خاطر خریدهای قبلی در اسنپ
+        دارید. نگاهی به اعتبارتان بیندازید، براساس آن خرید کنید و تسویه‌حساب را به پایان ماه موکول کنید. البته این‌طور
+        نیست که آخر ماه، آخرین فرصت تسویه‌حساب باشد. اسنپ تا ۵ روز بعد از پایان ماه به شما فرصت می‌دهد بدهی‌های ماه
+        گذشته را پرداخت کنید. نگران فراموش‌کردن تسویه‌حساب هم نباشید. اعلانات اسنپ آخر هر ماه شما را در جریان
+        صورت‌حسابتان قرار می‌دهد.</p>
+    </div>
+    <div class="w-[80%] bg-pink-100 shadow-2xl p-8 rounded-2xl *:my-3">
+      <h2 class="text-[22px] font-bold">امکان پیگیری لحظه‌ای سفارش</h2>
+      <p class="text-[18px] text-gray-700 text-justify">این حق شماست که بعد از درخواست اینترنتی غذا، بدانید سفارشتان هر
+        لحظه کجا و در چه مرحله‌ای است. اسنپ پس از ثبت درخواست، مدت‌زمان تقریبی آماده‌سازی را به شما اعلام می‌کند و به آن
+        پایبند می‌ماند. اعلان‌هایی که از اپلیکیشن دریافت می‌کنید، کاملا گویای جریان آماده‌سازی سفارش هستند. وقتی بسته
+        شما به پیک سپرده می‌شود، نام و شماره تلفن و مسیر حرکت او روی نقشه برایتان به ‌نمایش درمی‌آید. در خانه نشسته‌اید،
+        قهوه‌تان را نوش جان می‌کنید و می‌بینید که پیک از کدام مسیر و با چه سرعتی به‌سمت شما حرکت می‌کند.</p>
+    </div>
+
+  </section>
+  <!-- end of section8/// -->
+  <footer class="w-full 2xl:container mx-auto my-10 bg-white">
+    <div class="row justify-center">
+      <figure class="w-[80%] md:w-[40%] lg:w-1/4 flex flex-wrap justify-center py-2 shadow-2xl rounded-3xl">
+        <img class="p-3 rounded-3xl" src="Assets/Images/me.jpg" alt="">
+        <figcaption class="row justify-center items-center gap-3">
+          <h3 class="text-[25px] w-full text-center capitalize ">developed by: Fatemeh sooki</h3>
+          <i><a href="https://www.instagram.com/fatemeh_sooki?igsh=MXM4ZHBrNW55bmF0cQ=="><svg class="w-[40px] h-[40px]"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+                <path
+                  d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z">
+                </path>
+              </svg></a></i>
+          <i><a href="https://github.com/FatemehSooki"><svg class="w-[40px] h-[40px]" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24" fill="black">
+                <path
+                  d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+                </path>
+              </svg></a></i>
+          <i><a
+              href="https://www.linkedin.com/in/fatemeh-sooki-197060396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><svg
+                class="w-[40px] h-[40px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+                <path
+                  d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z">
+                </path>
+              </svg></a></i>
+        </figcaption>
+      </figure>
+    </div>
+  </footer>
+</body>
+
+</html>

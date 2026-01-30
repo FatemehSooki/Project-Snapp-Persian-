@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description"
+  content="اسنپ! اولین و بزرگترین تاکسی اینترنتی ایران است که برای جابه‌جایی در شهرهای بزرگ و کوچک ایران آماده خدمت‌رسانی به شماست.">
+ <link rel="stylesheet" href="Assets/StyleSheet/output.css">
+ <title>Taxi Snapp!</title>
+</head>
+
+<body>
+ <section class="w-full mt-[100px] 2xl:container mx-auto h-[70vh]">
+  <header class="fixed top-0 left-0 z-10 w-full w-full 2xl:container mx-auto h-[100px] bg-white shadow-md">
+   <nav class="w-full lg:w-[80%] mx-auto flex justify-between items-center h-full px-5">
+    <i class="lg:hidden"><a href="">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+       class="size-6 md:size-8 stroke-[#09c33b]">
+       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+     </a>
+    </i>
+    <figure>
+     <img src="Assets/Images/logo.svg" alt="">
+    </figure>
+    <ul
+     class="hidden lg:flex text-[14px] md:text-[16px] xl:*:text-[18px] justify-evenly w-[85%] **:flex **:items-center **:justify-center **:justify-evenly *:hover:text-[#3eb831] **:p-1 **:rounded-xl">
+     <li class="relative group"><a href="">
+       <span>سوپراپ اسنپ</span>
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+       </svg>
+       <ul
+        class="absolute w-[200px] flex flex-wrap bg-white justify-center duration-300 *:text-gray-700 *:text-center *:hover:bg-[#8ad3aa70] *:w-full *:!rounded-none opacity-0 invisible group-hover:visible group-hover:opacity-100 content-center !rounded-none top-[50px] right-0">
+        <li>
+         <a href="">
+          <span>درخواست تاکسی</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>پیک موتوری</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>سفارش انلاین غذا (اسنپ فود)</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>سوپر مارکت آنلاین (اسنپ مارکت)</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو بلیط هواپیما</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو هتل</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو بلیط قطار</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو بلیط اتوبوس</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>درخواست وانت بار</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>خدمات اسباب کشی</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>فروشگاه اسنپ</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>اسنپ بیمه</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>پزشک و مشاور</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>اسنپ پرو</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>اسنپ کلاب</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>سرمایه گذاری</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>خرید شارژ و اینترنت</span>
+         </a>
+        </li>
+
+       </ul>
+      </a></li>
+     <li><a href="">
+       <span>
+        ثبت نام راننده اسنپ
+       </span>
+      </a></li>
+     <li><a href="">
+       <span>اسنپ پی(سرویس اعتباری)</span>
+      </a></li>
+     <li><a href="">
+       <span>باشگاه رانندگان</span>
+      </a></li>
+     <li><a href="">
+       <span>پنل سازمانی</span>
+      </a></li>
+     <li><a href="">
+       <span>بلاگ</span>
+      </a></li>
+     <li class="relative group"><a href="">
+       <span>درباره اسنپ</span>
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+       </svg>
+      </a>
+      <ul
+       class="absolute w-[200px] flex flex-wrap bg-white justify-center *:!text-gray-700 *:text-center *:hover:bg-[#8ad3aa70] duration-300 *:w-full *:!rounded-none opacity-0 invisible group-hover:visible group-hover:opacity-100 content-center !rounded-none top-[50px] right-0">
+       <li>
+        <a href="">
+         <span>فرصت های شغلی</span>
+        </a>
+       </li>
+       <li>
+        <a href="">
+         <span>درباره ما</span>
+        </a>
+       </li>
+       <li>
+        <a href="">
+         <span>تماس با ما</span>
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <div class="row h-full bg-[#068f3f]">
+   <div
+    class="w-full flex flex-wrap justify-center content-evenly *:text-white px-5 lg:w-1/2 h-full *:w-[90%] *:mx-auto text-right">
+    <h1 class="text-[45px] font-bold">تاکسی اینترنتی اسنپ، در رکاب شماست!</h1>
+    <p class=" lg:text-justify text-[22px]">اسنپ! اولین و بزرگترین تاکسی اینترنتی ایران است که برای جابه‌جایی در شهرهای
+     بزرگ و کوچک ایران آماده خدمت‌رسانی به شماست.</p>
+    <a
+     class="w-[80%] flex justify-center items-center p-2 rounded-md mx-auto border border-white hover:bg-white hover:text-[#068f3f] duration-300"
+     href="">درخواست تاکسی</a>
+   </div>
+
+   <figure class="hidden lg:block w-1/2 h-full">
+    <img class="object-cover w-full h-full" src="Assets/Images/photo 3.jpg" alt="">
+   </figure>
+  </div>
+ </section>
+ <!-- end of section1/// -->
+ <section class="w-full 2xl:container mx-auto px-5 mt-10">
+  <h2 class="w-full text-center text-[50px]">یک اپلیکیشن، برای تمام نیازها</h2>
+  <div class="flex flex-wrap gap-5 w-[90%] md:w-[80%] mx-auto justify-evenly mt-10">
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-2/3 sm:w-1/3 lg:w-1/5 flex justify-center items-center">
+      <img class="w-full" src="Assets/Images/snapp1.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">تاکسی بین شهری</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">تاکسی بین شهری با اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-2/3 sm:w-1/3 lg:w-1/5 flex justify-center items-center">
+      <img class="w-full" src="Assets/Images/snapp2.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">سفر اشتراکی</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">سفر اشتراکی با اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-2/3 sm:w-1/3 lg:w-1/5 flex justify-center items-center">
+      <img class="w-full" src="Assets/Images/snapp3.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">تاکسی تلفنی</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">درخواست تاکسی تلفنی اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-2/3 sm:w-1/3 lg:w-1/5 flex justify-center items-center">
+      <img class="w-full" src="Assets/Images/snapp4.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">کارباکس</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">حمل بار با خودرو</p>
+     </span>
+    </a>
+   </div>
+  </div>
+ </section>
+ <!-- end of section2/// -->
+ <section class="w-full 2xl:container mx-auto px-5 my-20 lg:mb-[30%]">
+  <div class="w-full flex flex-wrap relative">
+   <figure class="w-full lg:w-1/2">
+    <img class="w-full object-cover" src="Assets/Images/photo 4.jpg" alt="">
+   </figure>
+
+   <div class="w-full lg:w-1/2 p-4 *:my-3">
+    <h4 class="text-[25px]">مزایای تاکسی اینترنتی اسنپ</h4>
+    <p class="text-justify text-gray-500 text-[18px]">تاکسی اینترنتی اسنپ تحولی عظیم در سیستم حمل و نقل هوشمند محسوب
+     می‌شود که هدفش برطرف کردن نیاز روزانه مردم برای سفر از نقطه‌ای به نقطه دیگر است.</p>
+   </div>
+
+   <div class="row justify-evenly lg:absolute right-0 top-[85%] gap-5">
+    <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+     <figure class="w-full">
+      <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/snap card 1.png" alt="">
+      <figcaption>
+       <h4 class="font-bold p-3">آسان و سریع</h4>
+       <p class="text-gray-700 text-justify p-3">با نصب سوپر اپلیکیشن اسنپ می‌توانید خیلی سریع و آسان، درخواست خودرو به
+        مقصد مورد نظرتان را ثبت کنید.</p>
+      </figcaption>
+     </figure>
+    </div>
+
+    <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+     <figure class="w-full">
+      <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/snap card 2.png" alt="">
+      <figcaption>
+       <h4 class="font-bold p-3">قیمت‌گذاری شفاف</h4>
+       <p class="text-gray-700 text-justify p-3">قیمت‌گذاری در اسنپ کاملا رقابتی، منطقی و شفاف است. مبلغ هر سفر پیش از
+        درخواست خودرو، اعلام خواهد شد.</p>
+      </figcaption>
+     </figure>
+    </div>
+
+    <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+     <figure class="w-full">
+      <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/snap card 3.png" alt="">
+      <figcaption>
+       <h4 class="font-bold p-3">پشتیبانی تمام وقت</h4>
+       <p class="text-gray-700 text-justify p-3">پشتیبانی اسنپ به صورت ۲۴ ساعته و در تمام روزهای هفته، آماده کمک و
+        پاسخ‌دهی به تمام سوالات شما است.</p>
+      </figcaption>
+     </figure>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- end of section3/// -->
+ <section class="w-full 2xl:container mx-auto py-10 px-20 mt-10">
+  <div class="row *:p-4">
+   <div class="w-full lg:w-1/4 flex flex-wrap gap-3 justify-center *:duration-300">
+    <a
+     class="block w-[80%] h-[50px] bg-[#068f3f] text-white rounded-2xl flex justify-center items-center hover:bg-gray-200 hover:text-[#068f3f]"
+     href="">ثبت</a>
+    <a
+     class="block w-[80%] h-[50px] text-[#068f3f] bg-gray-200 rounded-2xl flex justify-center items-center hover:bg-[#068f3f] hover:text-white"
+     href="">رفت و برگشت</a>
+    <a
+     class="block w-[80%] h-[50px] text-[#068f3f] bg-gray-200 rounded-2xl flex justify-center items-center hover:bg-[#068f3f] hover:text-white"
+     href="">توقف</a>
+   </div>
+
+   <div class="w-full md:w-2/3 lg:w-2/4">
+    <h5 class="font-bold text-[18px]">ثبت درخواست تاکسی اینترنتی</h5>
+    <p class="text-[18px] text-gray-700 text-right text-justify">در سوپر اپلیکیشن اسنپ، آیکن «اسنپ!» را انتخاب کنید.
+     ابتدا آدرس مبدأ و سپس مقصد خود را تعیین کنید. حالا می‌توانید نوع خودرو، مبلغ، گزینه‌های سفر و غیره را مشاهده و
+     ویرایش کنید.</p>
+   </div>
+
+   <img class="w-full md:w-1/3 lg:w-1/4" src="Assets/Images/photo  5.jpg" alt="">
+  </div>
+ </section>
+ <!-- end of section4/// -->
+ <section class="w-full 2xl:container mx-auto py-10 px-20 mt-10 flex flex-wrap lg:flex-nowrap gap-5">
+  <div class="w-full lg:w-1/2 flex flex-wrap *:bg-gray-200 *:w-full *:p-4 *:rounded-2xl gap-5 *:duration-300">
+
+   <div class="*:p-3 hover:bg-[#068f3f] hover:*:text-white">
+    <h4 class="text-center font-bold text-[22px]">امنیت سفر در اسنپ</h4>
+    <p class="text-[18px] text-justify">تاکسی اینترنتی اسنپ به‌منظور تأمین امنیت سفرها اقدامات و امکانات مختلفی را
+     طراحی و پیاده‌سازی کرده است. این
+     اقدامات و امکانات زمینه‌ساز امنیت شما، پیش از سفر، هنگام سفر و پس از سفر هستند.</p>
+    <ul class="*:font-bold *:my-2">
+     <li>تأیید صلاحیت و احراز هویت کاربران راننده از سوی پلیس اماکن فراجا</li>
+     <li>نظارت مستمر بر عملکرد کاربران راننده بر اساس سیستم امتیازدهی و گزارش مسافر</li>
+     <li>امکان برقراری تماس فوری و ارسال پیام به تیم امنیت سفر در شرایط اضطراری حین سفر</li>
+     <li>حفظ حریم خصوصی با قابلیت "تماس امن" و پنهان سازی شماره تلفن</li>
+     <li>امکان به اشتراک گذاری موقعیت مکانی لحظه ای و مشخصات سفر و راننده</li>
+    </ul>
+   </div>
+
+   <div class="*:p-3 hover:bg-[#068f3f] hover:*:text-white">
+    <h4 class="text-center font-bold text-[22px]">امکان پرداخت نقدی و آنلاین</h4>
+    <p class="text-[18px] text-justify">همۀ ما گاهی اوقات پول نقد در جیب نداریم یا به دلیل شرایط همه گیری کرونا، ترجیح
+     میدهیم مبلغ را آنلاین پرداخت کنیم. داشتن آزادی عمل در نوع پرداخت می‌تواند به قابلیت استفاده راحت از خدمات تاکسی
+     اینترنتی بیفزاید. در سوپر اپلیکیشن اسنپ مسافران می‌توانند مبلغ سفر خود را به صورت پرداخت نقدی، آنلاین و یا از طریق
+     کیف پول آپ پرداخت کنند.</p>
+   </div>
+
+  </div>
+
+  <div class="bg-[#9bd2b360] w-full lg:w-1/2 rounded-2xl p-4 *:my-5">
+   <video class="rounded-2xl" src="Assets/Images/khodro.mp4" controls autoplay muted loop></video>
+   <h4 class="font-bold text-center text-[20px]">خبرهای جدید از تاکسی اینترنتی اسنپ</h4>
+   <p class="text-[18px] text-justify">با اطلاع از تازه ترین اخبار مربوط به تاکسی اینترنتی اسنپ می‌توانید از قابلیتها و
+    ویژگی‌های جدید این پلتفرم و<a class="text-[#068f3f]" href=""> کد تخفیف اسنپ</a> باخبر شوید. با به روز نگه داشتن
+    اطلاع خود، امکان استفاده همه جانبه از سوپر اپلیکیشن اسنپ را خواهید داشت. با وبلاگ اسنپ همراه باشید.</p>
+  </div>
+ </section>
+ <!-- end of section5/// -->
+ <section class="w-full 2xl:container mx-auto p-10 mt-10 flex flex-wrap justify-center gap-10">
+
+  <div class="w-[80%] bg-gray-200 p-8 rounded-2xl *:my-3">
+   <h2 class="text-[22px] font-bold">سفر راحت و ارزان با تاکسی آنلاین اسنپ!</h2>
+   <p class="text-[18px] text-gray-700 text-justify">اسنپ دنیای سفرهای درون‌شهری و برون‌شهری را با دو کلیدواژه مهم
+    دگرگون کرده است: کرایه ارزان و دسترسی آسان! برای
+    درخواست تاکسی آنلاین کافی است مبدأ و مقصد را در سوپراپ اسنپ مشخص کنید و با بهترین قیمت، درخواست خودرو بدهید.
+    <a class="text-[#068f3f]" href="">تاکسی بین شهری</a> ارزان می‌خواهید؟ در سوپراپ اسنپ، شهرهای مبدأ و مقصد را روی نقشه
+    مشخص کنید و نرخ باورنکردنی کرایه را ببینید!
+    به اینترنت دسترسی ندارید؟ شماره ۱۵۵۱ را بگیرید و با همان نرخ کرایه تاکسی آنلاین، <a class="text-[#068f3f]"
+     href="">تاکسی تلفنی</a> بگیرید.
+    می‌خواهید سفر به‌صرفه‌تری داشته باشید؟ از سرویس <a class="text-[#068f3f]" href="">تاکسی اشتراکی </a>استفاده کنید
+    یعنی هم‌زمان و همراه با چند نفر دیگر یک مسیر را با یک وسیله نقلیه طی کنید تا کرایه کمتری بپردازید.
+    همچنین با استفاده از <a class="text-[#068f3f]" href="">کد تخفیف اسنپ</a> می‌توانید هزینه سفرهای خود را کمتر کنید و
+    تجربه‌ای مقرون‌به‌صرفه‌تر داشته باشید.
+   </p>
+  </div>
+
+  <div class="w-[80%] bg-white shadow-2xl p-8 rounded-2xl *:my-3">
+   <h2 class="text-[22px] font-bold">تاکسی اینترنتی تهران!</h2>
+   <p class="text-[18px] text-gray-700 text-justify">سفرهای درون‌شهری در تهران گاهی به اندازه سفر از یک شهر به شهر دیگر
+    طول می‌کشد! ترافیک سنگین هم مزید بر علت می‌شود تا استفاده از خودروی شخصی چندان به‌صرفه نباشد. گرچه وسایل حمل‌ونقل
+    عمومی کار را راحت کرده است ولی بسیاری از شهروندان و مسافران ترجیح می‌دهند از هر جایی که هستند، تلفن همراه‌شان را
+    بردارند و برای آسایش، صرفه‌جویی در هزینه‌ها و جابه‌جایی سریع‌تر، بهترین تاکسی اینترنتی تهران را انتخاب کنند! اسنپ
+    حالا دیگر جزو ادبیات روزمره ما شده است. به‌جای اینکه بگوییم «تاکسی بگیر»، می‌گوییم «اسنپ بگیر»! این سرویس تاکسی
+    اینترنتی تهران را برای همه ما دردسترس‌تر و سفرهای درون‌شهری را آسان‌تر کرده است.</p>
+  </div>
+
+  <div class="w-[80%] bg-gray-200 p-8 rounded-2xl *:my-3">
+   <h2 class="text-[22px] font-bold">تاکسی اینترنتی اصفهان!</h2>
+   <p class="text-[18px] text-gray-700 text-justify">اصفهان یکی از بزرگ‌ترین شهرهای ایران است و جابه‌جایی در آن، نه فقط
+    برای مسافرانی که می‌خواهند دیدنی‌های جذابش را ببینند بلکه برای شهروندانی که روزانه به دلایل مختلف، در شهر تردد
+    می‌کنند، راحت نیست. خبر خوب اینکه مثل همیشه بهترین تاکسی اینترنتی اصفهان در تلفن همراه شما جا خوش کرده است! اگر
+    سفرهای فوری و درعین‌حال، ارزان و پرتخفیف می‌خواهید، در هر ساعت از شبانه‌روز از خدمات همیشه‌دردسترس تاکسی اینترنتی
+    اصفهان استفاده کنید. اگر هم مسافرید و می‌خواهید از دیدنی‌های تاریخی، فرهنگی و تفریحی اصفهان جا نمانید، پیشنهاد
+    می‌کنیم برنامه یک سفر گردشگری راحت در اصفهان و شهرهای اطرافش را به‌کمک اسنپ تنظیم کنید.</p>
+  </div>
+
+  <div class="w-[80%] bg-white shadow-2xl p-8 rounded-2xl *:my-3">
+   <h2 class="text-[22px] font-bold">تاکسی اینترنتی مشهد!</h2>
+   <p class="text-[18px] text-gray-700 text-justify">امروزه مسافران پرشمار دیار امام رضا با وجود تاکسی اینترنتی مشهد را
+    مثل شهر خودشان می‌دانند. با ثبت آدرس مبدأ و مقصد روی نقشه اسنپ و درخواست خودرو به آسانی آبِ خوردن در این شهر شلوغ
+    جابه‌جا شوید و در کنار زیارت، دیگر دغدغه تماشای جذاب‌ترین دیدنی‌های این شهر را نداشته باشید. برای ساکنان این شهر هم
+    سفر درون‌شهری ایمن، به‌صرفه و سریع همیشه مساوی است با انتخاب بهترین تاکسی اینترنتی مشهد! اسنپ با وجود تخفیف‌های
+    پرشمار، کرایه‌های معقول و به‌صرفه و پشتیبانی حرفه‌ای و پاسخ‌گویش همیشه انتخاب نخست مشهدی‌ها برای سفرهای راحت و سریع
+    در شهر است.</p>
+  </div>
+
+  <div class="w-[80%] bg-gray-200 p-8 rounded-2xl *:my-3">
+   <h2 class="text-[22px] font-bold">تاکسی اینترنتی شیراز!</h2>
+   <p class="text-[18px] text-gray-700 text-justify">از حافظیه تا معالی‌آباد، از عفیف‌آباد تا شاهچراغ، از دروازه‌قرآن تا
+    سعدیه، شیراز زیبا زیر پای شماست! کافی است تلفن همراه‌تان را بردارید و بهترین تاکسی اینترنتی شیراز را انتخاب کنید.
+    معلوم است که از اسنپ حرف می‌زنیم! اسنپ با چند کلیک، شما را با بهترین قیمت از مبدأ به مقصد می‌رساند، با تخفیف‌های
+    جذاب و پرشمارش طعم سفر در شیراز را برای شما لذت‌بخش‌تر می‌کند، با دسترسی شبانه‌روزی‌اش هیچ‌وقت شما را تنها نمی‌گذارد
+    و با تیم پشتیبانی حرفه‌ای‌اش سفر را برای شما ایمن‌تر و راحت‌تر می‌کند. چه مسافر باشید و چه شهروند، جابه‌جایی با
+    تاکسی اینترنتی شیراز را برای شما در یک چشم به‌هم‌زدن خلاصه می‌کند!</p>
+  </div>
+
+  <div class="w-[80%] bg-white shadow-2xl p-8 rounded-2xl *:my-3">
+   <h2 class="text-[22px] font-bold">تاکسی اینترنتی تبریز!</h2>
+   <p class="text-[18px] text-gray-700 text-justify">در شهر اولین‌ها سفر با اولین و بهترین تاکسی اینترنتی طعم دیگری
+    دارد! اسنپ با وجود سفرهای درون‌شهری امن، ارزان و راحت برای تبریزی‌ها به یکی از آشناترین واژه‌های روزمره تبدیل شده
+    است. با این سرویس تاکسی اینترنتی تبریز علاوه بر اینکه رانندگان حرفه‌ای اسنپ گوش‌به‌زنگ درخواست شما برای خودرو در هر
+    ساعت از شبانه‌روز هستند، تخفیف‌های جذاب و دلچسب هم در انتظار شماست تا ارزان‌تر و به‌صرفه سفر کنید. مسافران این شهر
+    چهارفصل هم همیشه برای گشت‌وگذار می‌توانند به اسنپ اطمینان کنند. خودروی خود را در پارکینگ بگذارید و برای گردشگری
+    هیجان‌انگیز اسنپی بهترین تاکسی اینترنتی تبریز را انتخاب کنید.</p>
+  </div>
+
+
+  <div class="row">
+   <figure class="w-full lg:w-1/2">
+    <img class="w-full p-5" src="Assets/Images/snapp last row.svg" alt="">
+   </figure>
+   <div class="w-full lg:w-1/2 flex content-center flex-wrap p-5 *:my-5">
+    <h5 class="text-[22px] font-bold text-justify">ثبت نام در تاکسی اینترنتی اسنپ!</h5>
+    <p class="text-[18px]">شما نیز می‌توانید به ناوگان اسنپ ملحق شوید .از مزایای همکاری و ثبت نام در تاکسی اینترنتی اسنپ
+     می‌توان به درآمد تضمینی و ساعت کاری دلخواه اشاره کرد .بدون نیاز به مراجعه‌ى حضوری، تمام مراحل ثبت‌نام را اینترنتی
+     انجام دهید.</p>
+    <div class="row justify-center lg:justify-start">
+     <a
+      class="bg-[#068f3f] text-white flex justify-center items-center p-2 w-[200px] h-[50px] rounded-lg hover:bg-[#04652c] duration-300"
+      href="">ثبت نام تاکسی و پیک موتوری</a>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- end of section6/// -->
+ <section class="w-full 2xl:container mx-auto px-10 bg-gray-200 py-5 mt-10 flex flex-wrap justify-center">
+  <h5 class="font-bold text-center w-full text-[30px]">پرسش های پر تکرار</h5>
+  <div
+   class="flex flex-col h-[500px] *:bg-white w-[80%] justify-center *:font-bold *:text-[18px] overflow-hidden *:max-h-12 *:p-3 *:hover:max-h-full *:flex **:duration-300 *:border-b *:border-gray-300">
+
+   <div class="group flex-grow-0 overflow-hidden flex-col hover:flex-grow-[4]">
+    نحوۀ استفاده از سرویس تاکسی اینترنتی اسنپ چگونه است؟
+    <p class="opacity-0 group-hover:opacity-100 mt-10 text-gray-700">
+     در ابتدا سوپراَپ اسنپ را روی گوشی همراه خود نصب کنید. سپس روی آیکون اسنپ! ضربه بزنید. ابتدا آدرس مبدأ و سپس مقصد
+     خود را تعیین کنید. حالا می‌توانید نوع خودرو، مبلغ، گزینه‌های سفر و غیره را مشاهده و ویرایش کنید.
+    </p>
+   </div>
+
+   <div class="group flex-grow-0 overflow-hidden flex-col hover:flex-grow-[4]">
+    سرویس تاکسی اینترنتی اسنپ دارای چند نوع خودرو است؟
+    <p class="opacity-0 group-hover:opacity-100 mt-10 text-gray-700">
+     در سوپر اپلیکیشن اسنپ می‌توانید نوع خودرو را در قالب «اسنپ اکو» و «اسنپ اکوپلاس» انتخاب کنید. اسنپ اکو شامل استفاده
+     از خودروهای معمولی با قیمت مناسب است و اسنپ اکوپلاس شامل درخواست سفارش برای خودروهای با کیفیت و قیمت بیشتر است.
+     خودروهای پلاس کیفیت بالاتری دارند و مدل خودروها از سال 85 به بالاست.
+    </p>
+   </div>
+
+   <div class="group flex-grow-0 overflow-hidden flex-col hover:flex-grow-[4]">
+    قیمت‌ها در تاکسی اینترنتی اسنپ چگونه تعیین می‌شود؟
+    <p class="opacity-0 group-hover:opacity-100 mt-10 text-gray-700">
+     قیمت هر سفر در اسنپ براساس چهار فاکتور اعم از «ورودی سفر»، «مسافت سفر»، «مدت زمان سفر» و «نسبت عرضه و تقاضا» تعیین
+     می‌شود. ورودی سفر، مدت زمان سفر و مسافت سفر، «قیمت پایه» را تشکیل می‌دهند که هرچند ورودی و مسافت در یک سفر ثابت
+     همیشه یکسان هستند. اما مدت زمان سفر با توجه به عواملی مانند ترافیک یا شرایط جوی خاص متغیر است. در نتیجه قیمت پایه
+     سفرها در شرایطی که ورودی سفر و مسافت یکسان باشد به دلیل ترافیک و تغییر مدت زمان سفر می‌تواند تغییر کند. این قیمت
+     پایه‌ متغیر خود متأثر از نسبت عرضه و تقاضاست. یک الگوریتم به‌صورت هوشمند نسبت عرضه و تقاضا را بررسی می‌کند و با
+     توجه به آن به قیمت پایه اضافه یا از آن کم می‌شود.
+    </p>
+   </div>
+
+   <div class="group flex-grow-0 overflow-hidden flex-col hover:flex-grow-[4]">
+    تاکسی اینترنتی اسنپ در چه شهرهایی فعال است؟
+    <p class="opacity-0 group-hover:opacity-100 mt-10 text-gray-700">
+     تاکسی اینترنتی اسنپ در تمام ۳۱ استان ایران، سرویس آنلاین حمل‌ونقل شهری را ارئه می‌دهد.
+    </p>
+   </div>
+
+   <div class="group flex-grow-0 overflow-hidden flex-col hover:flex-grow-[4]">
+    آیا امکان ردیابی خودرو از مبدأ تا مقصد وجود دارد؟
+    <p class="opacity-0 group-hover:opacity-100 mt-10 text-gray-700">
+     بله، از طریق اپلیکیشن اسنپ می‌توانید حرکت خودرو را ردیابی کنید.
+    </p>
+   </div>
+
+   <div class="group flex-grow-0 overflow-hidden flex-col hover:flex-grow-[4]">
+    چطور می‌توانم با پشتیبانی تماس بگیرم؟
+    <p class="opacity-0 group-hover:opacity-100 mt-10 text-gray-700">
+     برای ارتباط مستقیم با پشتیبانی می‌توانید با شماره ۹۱۰۳۹۰۰۰-۰۲۱ تماس گرفته و منتظر پاسخگویی همکاران پشتیبانی ما
+     باشید.
+    </p>
+   </div>
+
+  </div>
+
+ </section>
+ <!-- end of section7/// -->
+ <section class="w-full 2xl:container relative mx-auto h-[70vh]">
+  <figure
+   class="w-full h-full relative before:content-[''] before:w-full before:h-full before:absolute before:top-0 before:right-0 before:bg-[#000000b5]">
+   <img class="w-full h-full" src="Assets/Images/photo6.jpg" alt="">
+  </figure>
+  <div class="w-full p-10 h-full absolute *:my-3 lg:w-1/2 top-0 right-0 flex content-evenly flex-wrap">
+   <img src="Assets/Images/snapp2.svg" alt="">
+   <h5 class="w-full text-white font-bold text-[20px]">تاکسی اینترنتی اسنپ، سریع و مطمئن</h5>
+   <p class="w-full text-justify text-white text-[18px]">هم‌اکنون سرویس درخواست تاکسی اسنپ، از طریق سیستم‌عامل‌های مختلف
+    موبایل و وب اپلیکیشن به راحتی در دسترس شماست.
+    بهترین خدمات تاکسی اینترنتی را با سوپر اپلیکیشن اسنپ تجربه کنید.</p>
+   <a
+    class="w-[150px] h-[50px] flex justify-center items-center hover:bg-[#068f3f] hover:text-white duration-300 rounded-2xl bg-white text-[#068f3f]"
+    href="">درخواست تاکسی</a>
+  </div>
+ </section>
+ <!-- end of section8/// -->
+ <footer class="w-full 2xl:container mx-auto my-10 bg-white">
+  <div class="row justify-center">
+   <figure class="w-[80%] md:w-[40%] lg:w-1/4 flex flex-wrap justify-center py-2 shadow-2xl rounded-3xl">
+    <img class="p-3 rounded-3xl" src="Assets/Images/me.jpg" alt="">
+    <figcaption class="row justify-center items-center gap-3">
+     <h3 class="text-[25px] w-full text-center capitalize ">developed by: Fatemeh sooki</h3>
+     <i><a href="https://www.instagram.com/fatemeh_sooki?igsh=MXM4ZHBrNW55bmF0cQ=="><svg class="w-[40px] h-[40px]"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+        <path
+         d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z">
+        </path>
+       </svg></a></i>
+     <i><a href="https://github.com/FatemehSooki"><svg class="w-[40px] h-[40px]" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24" fill="black">
+        <path
+         d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+        </path>
+       </svg></a></i>
+     <i><a
+       href="https://www.linkedin.com/in/fatemeh-sooki-197060396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><svg
+        class="w-[40px] h-[40px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+        <path
+         d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z">
+        </path>
+       </svg></a></i>
+    </figcaption>
+   </figure>
+  </div>
+ </footer>
+</body>
+
+</html>

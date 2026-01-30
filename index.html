@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description"
+  content="از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر، رزرو هتل و... را میتوانید با اسنپ انجام دهید.">
+ <link rel="stylesheet" href="Assets/StyleSheet/output.css">
+ <title>Snapp!</title>
+
+</head>
+
+<body>
+
+ <section class="w-full mt-[100px] 2xl:container mx-auto h-[100vh]">
+  <header class="fixed top-0 left-0 z-10 w-full w-full 2xl:container mx-auto h-[100px] bg-white shadow-md">
+   <nav class="w-full lg:w-[80%] mx-auto flex justify-between items-center h-full px-5">
+    <i class="lg:hidden"><a href="">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+       class="size-6 md:size-8 stroke-[#09c33b]">
+       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+     </a>
+    </i>
+    <figure>
+     <img src="Assets/Images/logo.svg" alt="">
+    </figure>
+    <ul
+     class="hidden lg:flex text-[14px] md:text-[16px] xl:*:text-[18px] justify-evenly w-[85%] **:flex **:items-center **:justify-center **:justify-evenly *:hover:text-[#3eb831] **:p-1 **:rounded-xl">
+     <li class="relative group"><a href="">
+       <span>سوپراپ اسنپ</span>
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+       </svg>
+       <ul
+        class="absolute w-[200px] flex flex-wrap bg-white justify-center duration-300 *:text-gray-700 *:text-center *:hover:bg-[#8ad3aa70] *:w-full *:!rounded-none opacity-0 invisible group-hover:visible group-hover:opacity-100 content-center !rounded-none top-[50px] right-0">
+        <li>
+         <a href="">
+          <span>درخواست تاکسی</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>پیک موتوری</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>سفارش انلاین غذا (اسنپ فود)</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>سوپر مارکت آنلاین (اسنپ مارکت)</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو بلیط هواپیما</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو هتل</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو بلیط قطار</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>رزرو بلیط اتوبوس</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>درخواست وانت بار</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>خدمات اسباب کشی</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>فروشگاه اسنپ</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>اسنپ بیمه</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>پزشک و مشاور</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>اسنپ پرو</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>اسنپ کلاب</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>سرمایه گذاری</span>
+         </a>
+        </li>
+        <li>
+         <a href="">
+          <span>خرید شارژ و اینترنت</span>
+         </a>
+        </li>
+
+       </ul>
+      </a></li>
+     <li><a href="">
+       <span>
+        ثبت نام راننده اسنپ
+       </span>
+      </a></li>
+     <li><a href="">
+       <span>اسنپ پی(سرویس اعتباری)</span>
+      </a></li>
+     <li><a href="">
+       <span>باشگاه رانندگان</span>
+      </a></li>
+     <li><a href="">
+       <span>پنل سازمانی</span>
+      </a></li>
+     <li><a href="">
+       <span>بلاگ</span>
+      </a></li>
+     <li class="relative group"><a href="">
+       <span>درباره اسنپ</span>
+       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+       </svg>
+      </a>
+      <ul
+       class="absolute w-[200px] flex flex-wrap bg-white justify-center *:!text-gray-700 *:text-center *:hover:bg-[#8ad3aa70] duration-300 *:w-full *:!rounded-none opacity-0 invisible group-hover:visible group-hover:opacity-100 content-center !rounded-none top-[50px] right-0">
+       <li>
+        <a href="">
+         <span>فرصت های شغلی</span>
+        </a>
+       </li>
+       <li>
+        <a href="">
+         <span>درباره ما</span>
+        </a>
+       </li>
+       <li>
+        <a href="">
+         <span>تماس با ما</span>
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <div class="row h-[70%] bg-[#068f3f]">
+   <div
+    class="w-full flex flex-wrap justify-center items-center *:text-white px-5 lg:w-1/2 h-full *:w-[90%] *:mx-auto text-center lg:*:text-justify">
+    <h1 class="text-[45px] font-bold"> تجربه‌ی زندگی راحت‌تر، سریع‌تر و به‌صرفه‌تر با سوپر اپلیکیشن اسنپ!</h1>
+    <p class="text-[22px]">از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر، رزرو هتل و... را
+     میتوانید با اسنپ انجام دهید.</p>
+    <form
+     class="flex justify-center items-center w-full hidden lg:block relative after:absolute after:right-0 after:bottom-[-10px] after:w-[40%] after:h-[1px] after:bg-gray-300"
+     action="">
+     <input class="bg-[#068f3f] text-[18px] border-none outline-none w-[40%]" type="text" placeholder="09xxxxxxxxx">
+     <button class="bg-white text-[#068f3f] mx-5 p-2.5 rounded-md">ارسال لینک</button>
+    </form>
+    <a
+     class="w-[80%] flex justify-center items-center p-2 rounded-md mx-auto border border-white hover:bg-white hover:text-[#068f3f] duration-300"
+     href="">ورود به وب اپلیکیشن اسنپ</a>
+   </div>
+   <figure class="hidden lg:block w-1/2 h-full">
+    <img class="object-cover w-full h-full" src="Assets/Images/photo 1.jpg" alt="">
+   </figure>
+  </div>
+  <div class="row px-5 bg-white *:w-1/3 md:*:w-1/5 lg:*:w-1/7 my-10 gap-5 justify-center">
+   <a href="">
+    <img class="w-full h-full" src="Assets/Images/app1.png" alt="">
+   </a>
+   <a href="">
+    <img class="w-full h-full" src="Assets/Images/app2.png" alt="">
+   </a>
+   <a href="">
+    <img class="w-full h-full" src="Assets/Images/app3.svg" alt="">
+   </a>
+   <a href="">
+    <img class="w-full h-full" src="Assets/Images/app4.png" alt="">
+   </a>
+   <a href="">
+    <img class="w-full h-full" src="Assets/Images/app5.png" alt="">
+   </a>
+  </div>
+ </section>
+
+ <!-- end of section1/// -->
+
+ <section class="w-full 2xl:container mx-auto px-5 mt-20">
+  <h2 class="w-full text-center text-[50px]">یک اپلیکیشن، برای تمام نیازها</h2>
+  <div class="flex flex-wrap gap-5 w-[90%] md:w-[80%] mx-auto justify-evenly mt-10">
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="index1.html">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon1.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">تاکسی اینترنتی</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">درخواست آنلاین خودرو</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="index2.html">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon2.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">سفارش آنلاین غذا</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">سفارش غذا، نان و شیرینی با اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon3.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">پیک موتوری</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">حمل و نقل انواع بسته</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon4.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">درخواست وانت</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">حمل و نقل انواع بار</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon5.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">اسنپ پی</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">سرویس اعتباری اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon6.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">خرید بلیط هواپیما</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">سرویس بلیط پرواز اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon7.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">رزرو هتل</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">رزرو آنلاین هتل</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon8.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">خرید بلیط اتوبوس</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">سرویس بلیط اتوبوس اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon9.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">خرید بلیط قطار</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">سرویس بلیط قطار اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon10.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">فروشگاه اسنپ</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">فروشگاه اینترنتی اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon11.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">پزشک و مشاور</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">درمان با اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon12.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">داروخانه</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">داروخانه آنلاین اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon13.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">اسباب کشی منزل</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">خدمات اسباب کشی</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon14.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">ثبت نام راننده</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">ثبت نام تاکسی اینترنتی اسنپ</p>
+     </span>
+    </a>
+   </div>
+
+   <div class="p-3 w-1/4">
+    <a class="flex gap-2 flex-wrap lg:flex-nowrap justify-evenly" href="">
+     <figure class="w-full lg:w-1/5 flex justify-center">
+      <img class="" src="Assets/Images/myIcon15.svg" alt="snapp">
+     </figure>
+     <span class="*:text-center lg:*:text-right w-4/5 flex flex-wrap *:w-full justify-center">
+      <h3 class="font-bold">اسنپ! کلاب</h3>
+      <p class="text-gray-600 text-[14px] hidden md:block">باشپاه مشتریان اسنپ!</p>
+     </span>
+    </a>
+   </div>
+
+
+
+
+  </div>
+ </section>
+ <!-- end of section2/// -->
+ <section class="w-full 2xl:container mx-auto px-5 mt-20">
+  <div class="w-[90%] aspect-[16/5] flex justify-center mx-auto relative overflow-hidden rounded-2xl">
+   <a class="w-full absolute top-0 animate-slide1" href="">
+    <img class="w-full h-full rounded-2xl" src="Assets/Images/slider1.png" alt="">
+   </a>
+   <a class="w-full h-full absolute top-0 animate-slide2" href="">
+    <img class="w-full object-cover h-full rounded-2xl" src="Assets/Images/slider2.jpg" alt="">
+   </a>
+   <a class="w-full h-full absolute top-0 animate-slide3" href="">
+    <img class="w-full object-cover h-full rounded-2xl" src="Assets/Images/slider3.jpg" alt="">
+   </a>
+   <a class="w-full h-full absolute top-0 animate-slide4" href="">
+    <img class="w-full object-cover h-full rounded-2xl" src="Assets/Images/slider4.jpg" alt="">
+   </a>
+  </div>
+ </section>
+ <!-- end of section3/// -->
+ <section class="w-full 2xl:container mx-auto px-5 my-20 lg:mb-[30%]">
+  <div class="w-full flex flex-wrap relative">
+   <figure class="w-full lg:w-1/2">
+    <img class="w-full object-cover" src="Assets/Images/photo 2" alt="">
+   </figure>
+
+   <div class="w-full lg:w-1/2 p-4 *:my-3">
+    <h4 class="text-[25px]">سوپر اپ اسنپ؛ پاسخی به تمام نیازها</h4>
+    <p class="text-justify text-gray-500 text-[18px]">اسنپ، اولین تاکسی اینترنتی ایران، بعد از پنج سال فعالیت در حوزه‌ی
+     تردد شهری، به یک سوپر‌اپ با خدمات متنوع تبدیل شد. سوپراپ اسنپ راه‌حلی جدید و ساده است که با استفاده از آن تنها با
+     یک اپلیکیشن می‌توانید علاوه بر درخواست خودرو، موتور و وانت از خدمات متعددی از جمله سفارش غذا، پزشک و مشاور آنلاین،
+     خرید از سوپرمارکت‌ها و فروشگاه‌ها، اسباب‌کشی، خرید بلیط (هواپیما، اتوبوس، قطار)، رزرو هتل، پرداخت قبض و خرید شارژ
+     استفاده کنید.</p>
+   </div>
+
+   <div class="row justify-evenly lg:absolute right-0 top-[85%] gap-5">
+    <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+     <figure class="w-full">
+      <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/benefit1" alt="">
+      <figcaption>
+       <h4 class="font-bold p-3">آسان</h4>
+       <p class="text-gray-700 text-justify p-3">برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد اپلیکیشن
+        اسنپ شوید و روی آیکون مورد نظر بزنید.</p>
+      </figcaption>
+     </figure>
+    </div>
+
+    <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+     <figure class="w-full">
+      <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/benefit2" alt="">
+      <figcaption>
+       <h4 class="font-bold p-3">سریع</h4>
+       <p class="text-gray-700 text-justify p-3">قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک می‌کند.
+        سوپراپ اسنپ پاسخی سریع به نیازهای رومزه‌ی شماست.</p>
+      </figcaption>
+     </figure>
+    </div>
+
+    <div class="w-full sm:w-1/3 md:w-1/4 lg:w-1/6">
+     <figure class="w-full">
+      <img class="w-full bg-gray-200 rounded-xl" src="Assets/Images/benefit3" alt="">
+      <figcaption>
+       <h4 class="font-bold p-3">به صرفه</h4>
+       <p class="text-gray-700 text-justify p-3">سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند تا
+        بهترین خدمات را با قیمتی منطقی دریافت کنید.</p>
+      </figcaption>
+     </figure>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- end of section4/// -->
+ <section class="w-full 2xl:container mx-auto py-10 px-5 bg-[#9bd2b360]">
+  <h4 class="text-[40px] text-center">در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.</h4>
+  <p class="text-[20px] my-3 text-gray-500 text-center">بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل
+   ثبت‌نام را اینترنتی انجام دهید</p>
+  <div class="row justify-center my-5">
+   <a
+    class="w-[150px] h-[50px] rounded-2xl bg-[#068f3f] text-white flex justify-center items-center hover:bg-[#04632c] duration-300 my-5 hover:-translate-y-1"
+    href="">ثبت نام
+    رانندگان</a>
+  </div>
+  <video class="w-full rounded-2xl lg:w-[80%] mx-auto" src="Assets/Images/video.mp4" controls autoplay muted loop
+   poster="Assets/Images/video frame.png"></video>
+  <div class="row gap-10 justify-center my-10">
+
+   <div class="w-full lg:w-[40%] rounded-2xl bg-white">
+    <div class="row justify-center">
+     <img src="Assets/Images/card1" alt="">
+    </div>
+    <h5 class="font-bold px-5 my-2 text-[18px]">درآمد تضمینی + پاداش‌های ماهانه و هفتگی</h5>
+    <p class="text-gray-700 text-justify p-5 text-[18px]">با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان
+     تسویه در لحظه می‌توانید با شرکت در طرح‌های تشویقی
+     مختلف، درآمد خود را افزایش دهید.</p>
+   </div>
+
+   <div class="w-full lg:w-[40%] rounded-2xl bg-white">
+    <div class="row justify-center">
+     <img src="Assets/Images/card2" alt="">
+    </div>
+    <h5 class="font-bold px-5 my-2 text-[18px]">ساعت کاری دلخواه</h5>
+    <p class="text-gray-700 text-justify p-5 text-[18px]">فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت
+     خود را در هر ساعت از شبانه‌روز و متناسب با برنامه‌ی زندگی‌تان شخصی‌سازی کنید.</p>
+   </div>
+
+   <div class="w-full lg:w-[40%] rounded-2xl bg-white">
+    <div class="row justify-center">
+     <img src="Assets/Images/card3" alt="">
+    </div>
+    <h5 class="font-bold px-5 my-2 text-[18px]">مزایا و خدمات باشگاه رانندگان</h5>
+    <p class="text-gray-700 text-justify p-5 text-[18px]">در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی از
+     جمله خدمات خودرویی، خدمات درمانی و همچنین خدمات رفاهی و آموزشی بهره‌مند شوید.</p>
+   </div>
+
+   <div class="w-full lg:w-[40%] rounded-2xl bg-white">
+    <div class="row justify-center">
+     <img src="Assets/Images/card4" alt="">
+    </div>
+    <h5 class="font-bold px-5 my-2 text-[18px]">کار‌فیکس</h5>
+    <p class="text-gray-700 text-justify p-5 text-[18px]">باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را
+     برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه‌اندازی کرده است.</p>
+   </div>
+
+   <div class="w-full lg:w-[40%] rounded-2xl bg-white">
+    <div class="row justify-center">
+     <img src="Assets/Images/card5.svg" alt="">
+    </div>
+    <h5 class="font-bold px-5 my-2 text-[18px]">امنیت سفر کاربران راننده در اسنپ</h5>
+    <p class="text-gray-700 text-justify p-5 text-[18px]">اسنپ با ارائه سرویس امنیت سفر در اپلیکیشن رانندگان و بهبود
+     مستمر امکانات امنیتی این سرویس، تلاش می‌‌کند تجربه سفر با اسنپ برای کاربران راننده امن‌ و مطمئن باشد.</p>
+   </div>
+
+   <div class="w-full lg:w-[40%] rounded-2xl bg-white">
+    <div class="row justify-center">
+     <img src="Assets/Images/card6.svg" alt="">
+    </div>
+    <h5 class="font-bold px-5 my-2 text-[18px]">پشتیبانی ۲۴ ساعته و سریع</h5>
+    <p class="text-gray-700 text-justify p-5 text-[18px]">تیم پشتیبانی اسنپ در تمامی ساعت‌های شبانه‌روز پاسخگوی سوال‌ها
+     و مشکلات کاربران راننده است. بخش «پشتیبانی» در اپلیکیشن رانندگان، سریع‌ترین راه ارتباطی شما با تیم پشتیبانی اسنپ
+     است</p>
+   </div>
+  </div>
+ </section>
+ <!-- end of section5/// -->
+ <footer class="w-full 2xl:container mx-auto my-10 bg-white">
+  <div class="row justify-center">
+   <figure class="w-[80%] md:w-[40%] lg:w-1/4 flex flex-wrap justify-center py-2 shadow-2xl rounded-3xl">
+   <img class="p-3 rounded-3xl" src="Assets/Images/me.jpg" alt="">
+   <figcaption class="row justify-center items-center gap-3">
+     <h3 class="text-[25px] w-full text-center capitalize ">developed by: Fatemeh sooki</h3>
+     <i><a href="https://www.instagram.com/fatemeh_sooki?igsh=MXM4ZHBrNW55bmF0cQ=="><svg class="w-[40px] h-[40px]"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+        <path
+         d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z">
+        </path>
+       </svg></a></i>
+     <i><a href="https://github.com/FatemehSooki"><svg class="w-[40px] h-[40px]" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24" fill="black">
+        <path
+         d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z">
+        </path>
+       </svg></a></i>
+     <i><a
+       href="https://www.linkedin.com/in/fatemeh-sooki-197060396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><svg
+        class="w-[40px] h-[40px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+        <path
+         d="M18.3362 18.339H15.6707V14.1622C15.6707 13.1662 15.6505 11.8845 14.2817 11.8845C12.892 11.8845 12.6797 12.9683 12.6797 14.0887V18.339H10.0142V9.75H12.5747V10.9207H12.6092C12.967 10.2457 13.837 9.53325 15.1367 9.53325C17.8375 9.53325 18.337 11.3108 18.337 13.6245V18.339H18.3362ZM7.00373 8.57475C6.14573 8.57475 5.45648 7.88025 5.45648 7.026C5.45648 6.1725 6.14648 5.47875 7.00373 5.47875C7.85873 5.47875 8.55173 6.1725 8.55173 7.026C8.55173 7.88025 7.85798 8.57475 7.00373 8.57475ZM8.34023 18.339H5.66723V9.75H8.34023V18.339ZM19.6697 3H4.32923C3.59498 3 3.00098 3.5805 3.00098 4.29675V19.7033C3.00098 20.4202 3.59498 21 4.32923 21H19.6675C20.401 21 21.001 20.4202 21.001 19.7033V4.29675C21.001 3.5805 20.401 3 19.6675 3H19.6697Z">
+        </path>
+       </svg></a></i>
+   </figcaption>
+  </figure>
+  </div>
+ </footer>
+</body>
+
+</html>
